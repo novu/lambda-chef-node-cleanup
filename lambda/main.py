@@ -25,8 +25,8 @@ from chef.exceptions import ChefServerNotFoundError
 
 LOGGER = logging.getLogger()
 LOGGER.setLevel(logging.INFO)
-CHEF_SERVER_URL = 'https://your.domain/organizations/your_organization'
-USERNAME = 'CHEF_USER'
+CHEF_SERVER_URL = 'https://api.chef.io/organizations/novu'
+USERNAME = 'novu-aws'
 # Needed if using self signed certs such as when using a test Chef Server.
 # Include the certificate in the Lambda package at the location specified.
 # os.environ["SSL_CERT_FILE"] = "ec2-XXX-XXX-XXX-XXX.us-west-2.compute.amazonaws.com.crt"
